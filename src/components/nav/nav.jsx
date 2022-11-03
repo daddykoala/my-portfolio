@@ -3,7 +3,7 @@ import React from 'react';
 
 import './navStyles.scss';
 
-function nav() {
+function Nav() {
 return (
     <div>
         nav
@@ -14,4 +14,4 @@ return (
 
 //nav.defaultProps = {};
 
-export default React.memo(nav);
+export default React.memo(Nav);

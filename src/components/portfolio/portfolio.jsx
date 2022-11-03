@@ -3,7 +3,7 @@ import React from 'react';
 
 import './portfolioStyles.scss';
 
-function portfolio() {
+function Portfolio() {
 return (
     <div>
         portfolio
@@ -14,4 +14,4 @@ return (
 
 //portfolio.defaultProps = {};
 
-export default React.memo(portfolio);
+export default React.memo(Portfolio);

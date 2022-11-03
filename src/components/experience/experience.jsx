@@ -1,17 +1,17 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+//import PropTypes from 'prop-types';
 
 import './experienceStyles.scss';
 
-function experience() {
+function Experience() {
 return (
     <div>
         experience
     </div>
 );
 }
-experience.propTypes = {};
+//experience.propTypes = {};
 
-experience.defaultProps = {};
+//experience.defaultProps = {};
 
-export default React.memo(experience);
+export default React.memo(Experience);

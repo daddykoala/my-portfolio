@@ -3,7 +3,7 @@ import React from 'react';
 
 import './footerStyles.scss';
 
-function footer() {
+function Footer() {
 return (
     <div>
         footer
@@ -14,4 +14,4 @@ return (
 
 //footer.defaultProps = {};
 
-export default React.memo(footer);
+export default React.memo(Footer);

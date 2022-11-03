@@ -3,15 +3,15 @@ import React from 'react';
 
 import './contactStyles.scss';
 
-function contact() {
+function Contact() {
 return (
     <div>
         contact
-    </dic>
+    </div>
 );
 }
 //contact.propTypes = {};
 
 //contact.defaultProps = {};
 
-export default React.memo(contact);
+export default React.memo(Contact);

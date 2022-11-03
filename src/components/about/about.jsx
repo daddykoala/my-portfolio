@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import './aboutStyles.scss';
 
-function about() {
+function About() {
 return (
     <div>
         about
@@ -14,4 +14,4 @@ about.propTypes = {};
 
 about.defaultProps = {};
 
-export default React.memo(about);
+export default React.memo(About);

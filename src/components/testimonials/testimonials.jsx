@@ -3,7 +3,7 @@ import React from 'react';
 
 import './testimonialsStyles.scss';
 
-function testimonials() {
+function Testimonials() {
 return (
     <>
         
@@ -14,4 +14,4 @@ return (
 
 //testimonials.defaultProps = {};
 
-export default React.memo(testimonials);
+export default React.memo(Testimonials);
