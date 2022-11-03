@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+//import PropTypes from 'prop-types';
 
 import './aboutStyles.scss';
 
@@ -10,8 +10,8 @@ return (
     </div>
 );
 }
-about.propTypes = {};
+//about.propTypes = {};
 
-about.defaultProps = {};
+//about.defaultProps = {};
 
 export default React.memo(About);
