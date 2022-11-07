@@ -14,8 +14,8 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      <About/>
       <Nav/>
+      <About/>
       <Experience/>
       <Services/>
       <Portfolio/>

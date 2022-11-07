@@ -5,9 +5,7 @@ import './experienceStyles.scss';
 
 function Experience() {
 return (
-    <div>
-        experience
-    </div>
+    <section id="experience">experience</section>
 );
 }
 //experience.propTypes = {};

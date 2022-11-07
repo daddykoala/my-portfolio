@@ -5,10 +5,7 @@ import './servicesStyles.scss';
 
 function Services() {
 return (
-    <div>
-        services
-
-    </div>
+    <section id="service">services</section>
 );
 }
 //Services.propTypes = {};

@@ -5,9 +5,7 @@ import './contactStyles.scss';
 
 function Contact() {
 return (
-    <div>
-        contact
-    </div>
+    <section id="contact">contact</section>
 );
 }
 //contact.propTypes = {};

@@ -18,7 +18,7 @@ return (
                 <HeaderSocials/>
             </div>
             <div className="me">
-                <img src={imageprofil} alt="image d'un développeur fullstack" />
+                <img src={imageprofil} alt="me" />
             </div>
                 <a href="#contact" className='scroll__down'>ScrollDown</a>
         </div>
