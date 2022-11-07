@@ -1,3 +1,48 @@
-section {
-    height: 100vh;
+// section {
+//     height: 100vh;
+// }
+
+.container__experience {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.container__experience > div {
+    background: #2c2c6c;
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: all 400ms ease;
+
+}
+
+.container__experience > div:hover {
+    background: transparent;
+    border-color: aqua;
+    cursor: default;
+}
+
+.container__experience > div > h3 {
+    text-align: center;
+    margin-bottom:  2rem;
+    color:#8dd1ff;
+}
+
+.experience__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+
+}
+
+.experience__details {
+    display: flex;
+    gap: 1rem;
+
+}
+
+.experience__details-icons {
+    margin-top: 6px;
+    color:#8dd1ff
 }
