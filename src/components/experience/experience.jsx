@@ -60,13 +60,11 @@ function Experience() {
                                 <h4>NODE JS</h4>
                                 <small className="text-light">medium</small>
                             </div>
-
                         </article>
 
                         <article className="experience__details">
                             <BsPatchCheckFill className='experience__details-icons' />
                             <div>
-
                                 <h4>EXPRESS JS</h4>
                                 <small className="text-light">medium</small>
                             </div>
@@ -75,7 +73,6 @@ function Experience() {
                         <article className="experience__details">
                             <BsPatchCheckFill className='experience__details-icons' />
                             <div>
-
                             <h4>POSTGRES SQL</h4>
                             <small className="text-light">medium</small>
                             </div>
