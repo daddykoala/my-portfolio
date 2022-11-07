@@ -1,10 +1,10 @@
 import React from 'react';
 //import PropTypes from 'prop-types';
-import CLEMENT from '../../assets/clement.png';
+import CLEMENT from '../../assets/clement.jpg';
 import { FaAward } from 'react-icons/fa';
 
 
-// import './aboutStyles.scss';
+import './aboutStyles.scss';
 
 function About() {
     return (
@@ -12,13 +12,13 @@ function About() {
             <h5>Get to Know</h5>
             <h2>About Me</h2>
 
-            <div className="container about__container">
+            <div className="container about__container about__content">
                 <div className="about__me">
                     <div className='about__me-image'>
                         <img src={CLEMENT} alt="" />
                     </div>
                 </div>
-                <div className="about__content">
+                <div className="about__cards">
                     <article className="about__card">
                         <FaAward className='about__icon' />
                         <h5>expérience</h5>
