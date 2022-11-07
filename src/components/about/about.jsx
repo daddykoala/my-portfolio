@@ -18,6 +18,8 @@ function About() {
                         <img src={CLEMENT} alt="" />
                     </div>
                 </div>
+                <div>
+
                 <div className="about__cards">
                     <article className="about__card">
                         <FaAward className='about__icon' />
@@ -36,6 +38,7 @@ function About() {
                 </p>
 
                 <a href="#contact" className='btn btn--primary'>let's talk</a>
+                </div>
 
 
             </div>
