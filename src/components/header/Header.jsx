@@ -1,7 +1,8 @@
 import React from 'react';
 //import PropTypes from 'prop-types';
 import CallToAction from './callToAction';
-import imageprofil from '../../assets/imageprofil.png'
+import imageprofil from '../../assets/imageprofil.png';
+import HeaderSocials from './HeaderSocials';
 
 import './headerStyles.scss';
 
@@ -13,6 +14,9 @@ return (
             <h1>Moretti Clément</h1>
             <h5 className="text-light">Fullstack developpeur</h5>
             <CallToAction/>
+            <div>
+                <HeaderSocials/>
+            </div>
             <div className="me">
                 <img src={imageprofil} alt="image d'un développeur fullstack" />
                 <a href="#contact" className='scroll_down'>ScrollDown</a>
