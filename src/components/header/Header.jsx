@@ -19,8 +19,8 @@ return (
             </div>
             <div className="me">
                 <img src={imageprofil} alt="image d'un développeur fullstack" />
-                <a href="#contact" className='scroll_down'>ScrollDown</a>
             </div>
+                <a href="#contact" className='scroll__down'>ScrollDown</a>
         </div>
     </header>
 );
