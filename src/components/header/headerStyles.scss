@@ -1,4 +1,4 @@
-@import url('components/variable.scss');
+// @import url('components/variable.scss');
 
 header {
     height:100vh;
@@ -37,10 +37,11 @@ header {
 
 }
 
-.header__socials::after {
+// .header__socials::after {
 
-    content: "";
-    width: 1px;
-    height: 2rem;
-    background: var(#8dd1ff)
-}
+//     content: "";
+//     width: 1px;
+
+//     height: 2rem;
+//     background: var(#8dd1ff);
+// }
