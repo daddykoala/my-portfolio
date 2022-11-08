@@ -130,7 +130,6 @@ img {
 
 @media screen and (max-width: 600px ) {
   .container {
-    height: 84vh;
     width:var(--container-width-sm)
   }
 
