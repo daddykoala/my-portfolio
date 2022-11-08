@@ -1,0 +1,39 @@
+.portfolio__container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+    
+    
+}
+
+.portfolio__item{
+    background: #2c2c6c;
+    padding: 1.3rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    margin-bottom: auto;
+    transition:all 400ms ease;
+
+    &:hover {
+        border-color: rgba(77,181,255,0.4);
+        background: transparent;
+    }
+    &-image {
+        overflow: hidden;
+        border-radius: 1.5rem;
+    }
+
+    & h3 {
+        margin: 1.2rem 0 2rem;
+    }
+
+    &-cta {
+        display: flex;
+        gap: 2rem;
+    }
+
+    & p{
+        margin: 1.2rem 0 2rem;
+        overflow: scroll; 
+    }
+}
