@@ -68,5 +68,11 @@
 
 /*==========media queries (small devices )============*/
 
-
+.container__experience {
+    gap: 1rem;
+    & > div {
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+}
 
