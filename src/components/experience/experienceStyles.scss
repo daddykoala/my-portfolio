@@ -52,10 +52,21 @@
 /*==========media queries (medium devices )============*/
 
 @media screen and (max-width: 1024px ) {
+.container__experience {
+    grid-template-columns: 1fr;
+    &>div {
+        width: 80%;
+        padding: 2rem;
+        margin: auto;
+    }
+}
+}
 
-
-
-
+.experience__content {
+  padding: 1rem;  
 }
 
 /*==========media queries (small devices )============*/
+
+
+
