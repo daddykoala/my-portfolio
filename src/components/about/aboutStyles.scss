@@ -10,10 +10,14 @@ $--transition: all 400ms ease;
 section {
     height: 100vh;
 }
+section h2 {
+    margin-bottom: 0rem;
+}
 .about__container{
     display: grid;
     grid-template-columns: 35% 50%;
     gap: 15%;
+    margin-top: 0;
 }
 
 .about__me {
@@ -35,6 +39,7 @@ section {
         overflow: hidden;
         transform: rotate(10deg);
         transition: $--transition;
+        background: $--color-bg-variant;
 
         &:hover {
             transform: rotate(0deg);
@@ -97,6 +102,18 @@ section {
 
 .text__variant {
     color: $--color-primary;
+    font-size: 0.7rem;
+    font-weight: bold;
+    
+    & p {
+        display: block;
+        margin: 0.2rem 0rem 0 0rem ;
+
+    }
+
+    &__italic {
+        font-style: italic;
+    }
 }
 
 /*==========media queries (medium devices )============*/

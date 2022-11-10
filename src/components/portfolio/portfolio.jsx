@@ -23,8 +23,9 @@ return (
                 <a href="lien du projet" className='btn' target='_blank'>github</a>
                 <a href="site" className="btn btn-primary" target='_blank'>Live demo</a>
                 </div>
-                <p>Lorem ipsum dolor sistate, tempore minima odit rem doloremque la</p>
+                <p>projet professionnel de fin d'année,Develott est une plateforme ou les developpeurs junior peuvent monter des projets avec d'autres développeurs junior.</p>
             </article>
+            
             <article className="portfolio__item">
                 <div className="portfolio__item-image">
                     <img src={OKANBAN} alt="projet" />
@@ -35,19 +36,8 @@ return (
                 <a href="lien du projet" className='btn' target='_blank'>github</a>
                 <a href="site" className="btn btn-primary" target='_blank'>Live demo</a>
                 </div>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel, facilis laborum officiis voluptate, tempore minima odit rem doloremque la</p>
-            </article>
-            <article className="portfolio__item">
-                <div className="portfolio__item-image">
-                    <img src={OKANBAN} alt="projet" />
-                </div>
-                <h3>O'kanban</h3>
-                <div className="portfolio__item-cta">
-
-                <a href="lien du projet" className='btn' target='_blank'>github</a>
-                <a href="site" className="btn btn-primary" target='_blank'>Live demo</a>
-                </div>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel, facilis laborum officiis voluptate, tempore minima odit rem doloremque la</p>
+                <p>Projet en cours de realisation.
+                    je souhaite simplement reproduire un trello en utilisant react.Vous pouvez venir voir mon avancement directement sur github.</p>
             </article>-
         </div>
         

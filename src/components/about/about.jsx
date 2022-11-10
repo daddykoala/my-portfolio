@@ -1,6 +1,6 @@
 import React from 'react';
-//import PropTypes from 'prop-types';
-import CLEMENT from '../../assets/clement.jpg';
+
+import CLEMENT from '../../assets/miniature.png';
 import { FaAward } from 'react-icons/fa';
 
 
@@ -9,8 +9,8 @@ import './aboutStyles.scss';
 function About() {
     return (
         <section id='about'>
-            <h5>Get to Know</h5>
-            <h2>About Me</h2>
+            <h5>Ce que vous devez savoir</h5>
+            <h2>Sur moi</h2>
 
             <div className="container about__container about__content">
                 <div className="about__me">
@@ -30,11 +30,17 @@ function About() {
                     <article className="about__card">
                         <FaAward className='about__icon' />
                         <h5>Formation</h5>
-                        <small className='text__variant'>A la recherche de ma premiere expérience </small>
+                        <div className='text__variant'>
+                            <p>développeur web fullstack.js à l'ecole O'clock</p>
+                        <p>5 mois de formation socle chez</p>
+                        <p> + 1 mois de specialisation DATA</p>
+                        <p> + 1 mois de specialisation REACT</p>
+                        <p> + 1 mois de projet professionnel en équipe</p>
+                        </div>
                     </article>
                 </div>
 
-                <p className='text__variant'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, ab.
+                <p className='text__variant text__variant__italic'>Ayant diriger des équipes par le passé je comprend les besoins d'une entreprise dans son ensemble.Enthousiaste et passionné je saurai m'intégrer dans un projet et donner le meilleur de moi même.J'ai toujours soif d'apprendre et et de progresser. 
                 </p>
 
                 <a href="#contact" className='btn btn--primary'>let's talk</a>
@@ -45,8 +51,6 @@ function About() {
         </section>
     );
 }
-//about.propTypes = {};
 
-//about.defaultProps = {};
 
 export default React.memo(About);
