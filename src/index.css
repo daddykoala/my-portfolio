@@ -14,7 +14,7 @@
   --color-bg: #ecd4ca;
   --color-bg-variant:#41787f;
   --color-primary:#c98771;
-  --color-primary-variant:rgba(77,181,255,0.4);
+  --color-primary-variant:rgb(39, 97, 138);
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.91);
 
@@ -72,7 +72,7 @@ section > h2 {
   margin-bottom: 3rem;
 }
 .text-light {
-  color:var(--color-light);
+  color:var(--color-primary-variant);
 }
 
 a {

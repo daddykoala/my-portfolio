@@ -1,9 +1,9 @@
 $--color-bg: #ecd4ca;
 $--color-bg-variant:#41787f;
-$--color-primary:#52677c;
-$--color-primary-variant:#c98771;
+$--color-primary:#c98771;
+$--color-primary-variant:rgba(77,181,255,0.4);
 $--color-white: #fff;
-$--color-light: rgba(255,255,255,0.6);
+$--color-light: rgba(255, 255, 255, 0.91);
 
 $--transition: all 400ms ease;
 
@@ -19,6 +19,7 @@ $--transition: all 400ms ease;
     text-align: center;
     height: 100%;
     position: relative;
+    color: $--color-primary;
 }
 
 /*==== calltoaction======*/
@@ -41,6 +42,7 @@ $--transition: all 400ms ease;
     position: absolute;
     left:0;
     bottom: 3rem;
+    font-size: 1.5rem;
 
 }
 
@@ -49,18 +51,18 @@ $--transition: all 400ms ease;
     content: '|';
     width: 1px;
     height: 2rem;
-    color: #8dd1ff;
+    color: $--color-primary;
 }
 
 /*=====photo====*/
 
 .me {
-    background: linear-gradient((#8dd1ff), transparent);
+    background: linear-gradient(($--color-bg-variant), transparent);
     width: 22rem;
     height: 30rem;
     position: relative;
     left: calc(50% - 11rem);
-    margin-top: 4rem;
+    margin-top: 3rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
     padding: 3rem 1.5rem 1.5rem 1.5rem;
@@ -73,11 +75,11 @@ $--transition: all 400ms ease;
 .scroll__down {
 
     position: absolute;
-    right: -2.3rem;
+    right: -2.1rem;
     bottom:5rem;
     transform: rotate(90deg);
     font-weight: 300;
-    font-size: 0.9rem;
+    font-size: 1.5rem;
 
 }
 
