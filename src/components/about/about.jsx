@@ -30,11 +30,11 @@ function About() {
                     <article className="about__card">
                         <FaAward className='about__icon' />
                         <h5>Formation</h5>
-                        <small>A la recherche de ma premiere expérience </small>
+                        <small className='text__variant'>A la recherche de ma premiere expérience </small>
                     </article>
                 </div>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, ab.
+                <p className='text__variant'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, ab.
                 </p>
 
                 <a href="#contact" className='btn btn--primary'>let's talk</a>
