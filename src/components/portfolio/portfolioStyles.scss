@@ -7,16 +7,23 @@ $--color-light: rgba(255, 255, 255, 0.91);
 
 $--transition: all 400ms ease;
 
-
+section{
+    margin-top: 1rem;
+    display: contents;
+    
+}
 .portfolio__container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
     height: auto;
     overflow: visible;
-    
-    
+    padding-bottom: 5rem;
+
 }
+    
+    
+    
 .btn {
     width: max-content;
     display: inline-block;
@@ -49,7 +56,7 @@ $--transition: all 400ms ease;
     border: 1px solid transparent;
     margin-bottom: auto;
     transition:$--transition;
-
+   
     &:hover {
         border-color: $--color-bg-variant;
         background: transparent;

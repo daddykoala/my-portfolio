@@ -58,6 +58,7 @@ h1 {
 
 section {
   margin-top: 1rem;
+  display: block;
   /* height: 100vh; */
 }
 
