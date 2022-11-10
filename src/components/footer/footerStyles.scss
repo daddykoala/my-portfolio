@@ -1,12 +1,21 @@
+$--color-bg: #ecd4ca;
+$--color-bg-variant:#41787f;
+$--color-primary:#c98771;
+$--color-primary-variant:rgba(39, 97, 138);
+$--color-white: #fff;
+$--color-light: rgba(255, 255, 255, 0.91);
+
+$--transition: all 400ms ease;
+
 footer{
     text-align: center;
     padding: 3rem 0;
-    background: #8dd1ff;
+    background: $--color-bg-variant;
     font-size: 0.9rem;
     margin-top: 7rem;
 
     & a {
-        color:#2c2c6c ;
+        color:$--color-bg ;
     }
 }
 
@@ -36,7 +45,7 @@ footer{
 }
 
 .footer__socials a{
-    background: #2c2c6c;
+    background: $--color-primary-variant;
     color: white;
     padding: 0.8rem;
     border-radius: 0.8rem;
@@ -49,9 +58,9 @@ footer{
 
 &:hover{
     background: transparent;
-    color: #2c2c6c;
-    border-color: #2c2c6c;
-    box-shadow: #2c2c6c(10px,10px,);
+    color: $--color-bg;
+    border-color: $--color-bg;
+
 }
     
 }

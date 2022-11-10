@@ -1,14 +1,14 @@
 $--color-bg: #ecd4ca;
 $--color-bg-variant:#41787f;
-$--color-primary:#52677c;
-$--color-primary-variant:#c98771;
+$--color-primary:#c98771;
+$--color-primary-variant:rgba(39, 97, 138, 0.551);
 $--color-white: #fff;
-$--color-light: rgba(255,255,255,0.6);
+$--color-light: rgba(255, 255, 255, 0.91);
 
 $--transition: all 400ms ease;
 
 nav {
-    background: rgba(0,0,0,0.3);
+    background: $--color-primary-variant;
     width: max-content;
     display: block;
     padding: 0.7rem 1.7rem;
@@ -20,7 +20,7 @@ nav {
     display: flex;
     gap: 0.8rem;
     border-radius: 3rem;
-    backdrop-filter: blur(15px);
+     backdrop-filter: blur(15px);
 
 }
 
@@ -29,16 +29,16 @@ nav a {
     padding: 0.9rem;
     border-radius: 50%;
     display: flex;
-    color: aqua;
+    color: $--color-bg;
     font-size: 1.1rem;
 }
 
 nav a:hover {
-    background:rgba(0,0,0,0.3) ;
+    background:rgba(0, 23, 106, 0.3) ;
 }
 
 nav a.active {
-    background: aqua;
+    background: $--color-bg-variant;
     color: white;
     backdrop-filter: blur(50px);
 }
