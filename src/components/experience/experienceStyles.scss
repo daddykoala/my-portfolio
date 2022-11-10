@@ -1,4 +1,11 @@
+$--color-bg: #ecd4ca;
+$--color-bg-variant:#41787f;
+$--color-primary:#c98771;
+$--color-primary-variant:rgba(39, 97, 138);
+$--color-white: #fff;
+$--color-light: rgba(255, 255, 255, 0.91);
 
+$--transition: all 400ms ease;
 
 .container__experience {
     display: grid;
@@ -10,25 +17,26 @@
     
 
 .container__experience > div {
-    background: #2c2c6c;
+    background: $--color-bg-variant;
     padding: 2.4rem 5rem;
     border-radius: 2rem;
     border: 1px solid transparent;
     margin-bottom: auto;
-    transition: all 400ms ease;
+    transition: $--transition;
 
 }
 
 .container__experience > div:hover {
     background: transparent;
-    border-color: aqua;
+    border-color: $--color-bg-variant;
+    color: $--color-primary-variant;
     cursor: default;
 }
 
 .container__experience > div > h3 {
     text-align: center;
     margin-bottom:  2rem;
-    color:#8dd1ff;
+    color:$--color-primary;
 }
 
 .experience__content {
@@ -46,8 +54,10 @@
 
 .experience__details-icons {
     margin-top: 6px;
-    color:#8dd1ff
+    color:$--color-primary
 }
+
+
 
 /*==========media queries (medium devices )============*/
 

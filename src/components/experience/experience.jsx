@@ -18,7 +18,7 @@ function Experience() {
                             <BsPatchCheckFill className='experience__details-icons' />
                             <div>
                                 <h4>HTML</h4>
-                                <small className="text-light">Experienced</small>
+                                <small className="text-contrast">Experienced</small>
                             </div>
                         </article>
 
@@ -26,7 +26,7 @@ function Experience() {
                             <BsPatchCheckFill className='experience__details-icons' />
                             <div>
                                 <h4>CSS</h4>
-                                <small className="text-light">Experienced</small>
+                                <small className="text-contrast">Experienced</small>
                             </div>
                         </article>
 
@@ -34,7 +34,7 @@ function Experience() {
                             <BsPatchCheckFill className='experience__details-icons' />
                             <div>
                                 <h4>JAVASCRIPT</h4>
-                                <small className="text-light">Experienced</small>
+                                <small className="text-contrast">Experienced</small>
                             </div>
 
                         </article>
@@ -43,7 +43,7 @@ function Experience() {
                             <BsPatchCheckFill className='experience__details-icons' />
                             <div>
                                 <h4>REACT</h4>
-                                <small className="text-light">Experienced</small>
+                                <small className="text-contrast">Experienced</small>
                             </div>
 
                         </article>
@@ -58,7 +58,7 @@ function Experience() {
                             <BsPatchCheckFill className='experience__details-icons' />
                             <div>
                                 <h4>NODE JS</h4>
-                                <small className="text-light">medium</small>
+                                <small className="text-contrast">medium</small>
                             </div>
                         </article>
 
@@ -66,7 +66,7 @@ function Experience() {
                             <BsPatchCheckFill className='experience__details-icons' />
                             <div>
                                 <h4>EXPRESS JS</h4>
-                                <small className="text-light">medium</small>
+                                <small className="text-contrast">medium</small>
                             </div>
                         </article>
 
@@ -74,7 +74,7 @@ function Experience() {
                             <BsPatchCheckFill className='experience__details-icons' />
                             <div>
                             <h4>POSTGRES SQL</h4>
-                            <small className="text-light">medium</small>
+                            <small className="text-contrast">medium</small>
                             </div>
                         </article>
                     </div>
