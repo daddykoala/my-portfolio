@@ -29,7 +29,7 @@ $--transition: all 400ms ease;
 .container__experience > div:hover {
     background: transparent;
     border-color: $--color-bg-variant;
-    color: $--color-primary-variant;
+    color: $--color-bg-variant;
     cursor: default;
 }
 
