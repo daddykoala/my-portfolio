@@ -43,7 +43,7 @@ return (
                     <BsWhatsapp/>
                     <h4>Whatsapp</h4>
                     <h5>0628933984</h5>
-                    <a href="https://wa.me/+33628933984">Envoyez moi un message</a>
+                    <a href="https://wa.me/+33628933984" target='_blank'>Envoyez moi un message</a>
                 </article>
             </div>
             <form ref={form} onSubmit={sendEmail}>
