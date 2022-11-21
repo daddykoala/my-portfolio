@@ -24,7 +24,10 @@ function About() {
                     <article className="about__card">
                         <FaAward className='about__icon' />
                         <h5>expérience</h5>
-                        <small>A la recherche de ma premiere expérience </small>
+                        <div className="text__variant">
+
+                        <p>A la recherche de ma premiere expérience </p>
+                        </div>
                     </article>
 
                     <article className="about__card">
@@ -40,7 +43,7 @@ function About() {
                     </article>
                 </div>
 
-                <p className='text__variant text__variant__italic'>Ayant diriger des équipes par le passé je comprend les besoins d'une entreprise dans son ensemble.Enthousiaste et passionné je saurai m'intégrer dans un projet et donner le meilleur de moi même.J'ai toujours soif d'apprendre et et de progresser. 
+                <p className='text__variant text__variant__italic'>Ayant diriger des équipes par le passé je comprend les besoins d'une entreprise dans son ensemble.Enthousiaste et passionné je saurai m'intégrer dans un projet et donner le meilleur de moi même.J'ai toujours soif d'apprendre et de progresser. 
                 </p>
 
                 <a href="#contact" className='btn btn--primary'>let's talk</a>

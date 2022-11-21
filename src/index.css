@@ -43,7 +43,7 @@ body {
 }
 
 .container {
-
+  box-sizing: content-box;
   width: var(--container-width-lg);
   margin: 0 auto;
 }
@@ -129,7 +129,7 @@ img {
 
 /*==========media queries (small devices)============*/
 
-@media screen and (max-width: 600px ) {
+@media screen and (max-width: 643px ) {
   .container {
     width:var(--container-width-sm)
   }

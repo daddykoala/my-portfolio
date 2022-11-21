@@ -138,7 +138,8 @@ section h2 {
 
 /*==========media queries (small devices )============*/
 
-@media screen and (max-width: 600px ) {
+@media screen and (max-width: 643px ) {
+    
     .about__me {
         width: 65%;
         margin: 0 auto 3rem;
@@ -146,13 +147,21 @@ section h2 {
     }
     .about__cards {
     gap: 1rem;
+    grid-template-columns: repeat(1,1fr);
+    gap: 1.5rem;
+    
+
+        
+        
+        
     }
     .about__content {
         text-align: center;
     }
-
+    
     .about__content p {
         margin: 1.5rem 0;
+        font-size: 1.2rem;
     }
     
 

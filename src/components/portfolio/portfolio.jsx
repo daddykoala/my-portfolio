@@ -22,7 +22,7 @@ return (
 
                 <a href="lien du projet" className='btn' target='_blank'>github</a>
                 <a href="site" className="btn btn-primary" target='_blank'>Live demo</a>
-                <a href="site" className="btn btn-primary" target='_blank'>Doc back</a>
+                {/* <a href="site" className="btn btn-primary" target='_blank'>Doc back</a> */}
                 </div>
                 <p>Projet professionnel de fin d'année,Develott est une plateforme où les développeurs junior peuvent monter des projets avec d'autres développeurs junior.</p>
             </article>
