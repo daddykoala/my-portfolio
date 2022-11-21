@@ -6,12 +6,12 @@ import './experienceStyles.scss';
 function Experience() {
     return (
         <section id="experience">
-            <h5>What skills I have </h5>
-            <h2>My Experience</h2>
+            <h5>Quelles sont mes compétences  </h5>
+            <h2>Mon experience</h2>
 
             <div className="container container__experience">
                 <div className="experience__frontend">
-                    <h3>mes skills Front</h3>
+                    <h3>Front end</h3>
                     <div className="experience__content">
 
                         <article className="experience__details">
@@ -51,7 +51,7 @@ function Experience() {
 
                 </div>
                 <div className="experience__backend">
-                    <h3>mes skills Back</h3>
+                    <h3>Back end</h3>
                     <div className="experience__content">
 
                         <article className="experience__details">

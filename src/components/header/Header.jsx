@@ -12,9 +12,10 @@ return (
 
 
         <div className="container container__header">
-            <h5 >Hello i'm</h5>
+            <h5 >Bienvenue à vous !</h5>
+            <h5 >Je me présente</h5>
             <h1>Moretti Clément</h1>
-            <h5 className="text-light">Fullstack developpeur</h5>
+            <h5 className="text-light">Développeur Fullstack.Javascript</h5>
             <CallToAction/>
             <div>
                 <HeaderSocials/>

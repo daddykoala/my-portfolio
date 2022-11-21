@@ -46,7 +46,7 @@ function About() {
                 <p className='text__variant text__variant__italic'>Ayant diriger des équipes par le passé je comprend les besoins d'une entreprise dans son ensemble.Enthousiaste et passionné je saurai m'intégrer dans un projet et donner le meilleur de moi même.J'ai toujours soif d'apprendre et de progresser. 
                 </p>
 
-                <a href="#contact" className='btn btn--primary'>let's talk</a>
+                <a href="#contact" className='btn btn--primary'>Contactez moi</a>
                 </div>
 
 

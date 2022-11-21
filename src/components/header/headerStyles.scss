@@ -8,7 +8,7 @@ $--color-light: rgba(255, 255, 255, 0.91);
 $--transition: all 400ms ease;
 
 .container {
-    height:100vh;
+    min-height:100vh;
     padding-top: 7rem;
     overflow: hidden;
 
@@ -87,7 +87,7 @@ $--transition: all 400ms ease;
 
 @media screen and (max-width: 1024px ) {
     header {
-        height: 68vh;
+        height: 90vh;
     }
 
 }

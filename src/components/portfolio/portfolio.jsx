@@ -8,7 +8,7 @@ import './portfolioStyles.scss';
 function Portfolio() {
 return (
     <section id='portfolio'>
-        <h5>My recent Work</h5>
+        <h5>Mes travaux récents</h5>
         <h2>Portfolio</h2>
 
         <div className="container portfolio__container">
@@ -20,8 +20,8 @@ return (
                 <h3>Develott</h3>
                 <div className="portfolio__item-cta">
 
-                <a href="lien du projet" className='btn' target='_blank'>github</a>
-                <a href="site" className="btn btn-primary" target='_blank'>Live demo</a>
+                <a href="https://github.com/daddykoala/my-portfolio" className='btn' target='_blank'>github</a>
+                <a href="https://develott-front.herokuapp.com/" className="btn btn-primary" target='_blank'>Live demo</a>
                 <a href="site" className="btn btn-primary" target='_blank'>Doc back</a>
                 </div>
                 <p>Projet professionnel de fin d'année,Develott est une plateforme où les développeurs junior peuvent monter des projets avec d'autres développeurs junior.</p>
@@ -41,7 +41,7 @@ return (
                 </div>
                 <p>Projet en cours de réalisation.
                     je souhaite simplement reproduire un trello en utilisant react, materialUI et mongoDB Vous pouvez venir voir mon avancement directement sur github.</p>
-            </article>-
+            </article>
         </div>
         
     </section>
