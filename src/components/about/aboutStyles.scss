@@ -7,8 +7,10 @@ $--color-light: rgba(255, 255, 255, 0.91);
 
 $--transition: all 400ms ease;
 
-section {
-    height: 100vh;
+#about {
+    min-height: 100vh;
+    max-height: max-content;
+    
 }
 section h2 {
     margin-bottom: 0rem;
@@ -18,6 +20,7 @@ section h2 {
     grid-template-columns: 35% 50%;
     gap: 15%;
     margin-top: 0;
+    height: max-content;
 }
 
 .about__me {

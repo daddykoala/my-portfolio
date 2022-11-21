@@ -43,7 +43,7 @@ body {
 }
 
 .container {
-  box-sizing: content-box;
+  box-sizing: border-box;
   width: var(--container-width-lg);
   margin: 0 auto;
 }

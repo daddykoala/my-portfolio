@@ -95,11 +95,16 @@ section{
 }
 
 /*==========media queries (small devices )============*/
-@media screen and (max-width: 600px ) {
+@media screen and (max-width: 643px ) {
     
 .portfolio__container {
     grid-template-columns: 1fr;
     gap: 0.1rem;
 
+}
+
+.portfolio__item-cta {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
 }
 }
