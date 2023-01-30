@@ -85,20 +85,12 @@ $--transition: all 400ms ease;
 
 /*==========media queries (medium devices )============*/
 
-@media screen and (max-width: 1024px ) {
-    header {
-        height: 90vh;
-    }
 
-}
 
 /*==========media queries (small devices )============*/
 
 @media screen and (max-width: 642px ) {
-    header {
-        height: 100vh;
-    
-    }
+   
     .header__socials,
     .scroll__down{
         display: none;
