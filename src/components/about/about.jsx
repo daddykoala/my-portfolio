@@ -23,7 +23,7 @@ function About() {
                 <div className="about__cards">
                     <article className="about__card">
                         <FaAward className='about__icon' />
-                        <h5>expérience</h5>
+                        <h5>Expérience</h5>
                         <div className="text__variant">
 
                         <p>A la recherche de ma premiere expérience </p>
@@ -34,16 +34,16 @@ function About() {
                         <FaAward className='about__icon' />
                         <h5>Formation</h5>
                         <div className='text__variant'>
-                            <p>développeur web fullstack.js à l'ecole O'clock</p>
-                        <p>5 mois de formation socle chez</p>
-                        <p> + 1 mois de specialisation DATA</p>
-                        <p> + 1 mois de specialisation REACT</p>
+                            <p>développeur web fullstack.js à l'école O'clock</p>
+                        <p>5 mois de formation socle</p>
+                        <p> + 1 mois de spécialisation DATA</p>
+                        <p> + 1 mois de spécialisation REACT</p>
                         <p> + 1 mois de projet professionnel en équipe</p>
                         </div>
                     </article>
                 </div>
 
-                <p className='text__variant text__variant__italic'>Ayant diriger des équipes par le passé je comprend les besoins d'une entreprise dans son ensemble.Enthousiaste et passionné je saurai m'intégrer dans un projet et donner le meilleur de moi même.J'ai toujours soif d'apprendre et de progresser. 
+                <p className='text__variant text__variant__italic'>Ayant dirigé des équipes par le passé je comprends les besoins d'une entreprise dans son ensemble.Enthousiaste et passionné je saurai m'intégrer dans un projet et donner le meilleur de moi même.J'ai toujours soif d'apprendre et de progresser. 
                 </p>
 
                 <a href="#contact" className='btn btn--primary'>Contactez moi</a>
