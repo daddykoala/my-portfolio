@@ -9,8 +9,8 @@ return (
     <a href="#" className='footer__head'>Clement Moretti</a>
     <ul className='permalinks'>
         <a href='#' >Home</a>
-        <a href='#About' >About</a>
-        <a href='#Experience' >Experience</a>
+        <a href='#about' >About</a>
+        <a href='#experience' >Experience</a>
         <a href='#portfolio' >Portfolio</a>
         <a href='#contact' >Contact</a>
     </ul>

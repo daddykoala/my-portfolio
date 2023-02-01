@@ -1,6 +1,6 @@
 import React from 'react';
 
-import CLEMENT from '../../assets/miniature.png';
+import CLEMENT from '../../assets/miniature.jpg';
 import { FaAward } from 'react-icons/fa';
 
 
