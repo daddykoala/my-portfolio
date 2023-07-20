@@ -1,6 +1,5 @@
 import React from 'react';
-import CV from '../../assets/cv.pdf'
-
+import CV from '../../assets/CV_Clement_Moretti_FS.png'
 
 
  function callToAction() {
